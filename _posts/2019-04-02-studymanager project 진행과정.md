@@ -1,3 +1,8 @@
+---
+layout: project
+title: 19.04.02 studymanager project 진행과정
+---
+
 # 19.04.02 studymanager project 진행과정
 ### 회원가입 시 email 중복확인 API 설정
 - 이메일을 입력한 후 중복확인 버튼을 누르면 중복된 값이 있는지 확인한다.
