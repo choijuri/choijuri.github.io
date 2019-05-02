@@ -3,7 +3,7 @@ layout: project
 title: 19.05.01 studymanager project 진행과정
 ---
 
-# 19.04.08 studymanager project 진행과정
+# 19.05.01 studymanager project 진행과정
 ### message 알림 띄우기
 - 읽지 않은 message를 조회하여 데이터를 가져온다.
 - api controller를 사용하여 페이지가 바뀔떄마다 조회를 하고, 만약 읽지 않은 메시지가 있다면 알림을 띄운다.
