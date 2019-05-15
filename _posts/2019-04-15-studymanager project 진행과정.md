@@ -1,6 +1,7 @@
 ---
-layout: project
+layout: post
 title: 19.04.15 studymanager project 진행과정
+category: Project
 ---
 
 # 19.04.15 studymanager project 진행과정

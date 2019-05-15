@@ -1,14 +1,13 @@
 # Site Info
 title: blog
 tagline: 'blog'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+description: 'programmer'
 baseurl: ""
 url: https://choijuri.github.io
 logo: '/public/logo.png'
 
 # Site configurations
 gems:
-  - jekyll-paginate
 markdown: kramdown
 kramdown:
   input: GFM
@@ -26,19 +25,26 @@ version: 1.0.0
 author:
   name: choi juri
   description:
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  #gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
-    linkedin:  https://www.linkedin.com/in/lizhihao
+    #linkedin:  https://www.linkedin.com/in/lizhihao
     github:    https://github.com/choijuri
     # facebook:  <hide>
-    twitter:   https://twitter.com/Li_Zhihao
-    weibo:     http://weibo.com/41173780
+    #twitter:   https://twitter.com/Li_Zhihao
+    #weibo:     http://weibo.com/41173780
     email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 # Navigation (2nd level links supported)
 nav:
   Home:           
     - '/'
+  Categories:
+    - '/'
+    # - { Categories All: '/blog/categories/' }
+    - { Java : '/blog/categories/#java' }
+    - { Algorithm : '/blog/categories/#Algorithm' }
+    - { Project : '/blog/categories/#Project' }
+    - { etc : '/blog/categories/#etc' }
   Blog:           
     - '/blog/'
     - { Categories: '/blog/categories/' }
@@ -61,3 +67,5 @@ mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
 
+# 구글폰트
+google_fonts: "Noto+Sans+KR"
