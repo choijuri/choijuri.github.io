@@ -20,20 +20,11 @@ title: Home
       <hr/>
 
       <div class="tags-expo-section">
-				<h3 style="color:#24423d;"><b>최근 게시물</b></h3>
-        <ul class="tags-expo-posts">
-          {% for post in site.posts offset: 0 limit: 5  %}
-          <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-            <li>
-              {{ post.title }}&nbsp;&nbsp;
-              <small class="post-date">{{ post.date | date_to_string }}</small>
-            </li>
-          </a>
-          {% endfor %}
-        </ul>
-			<hr/>
+	
         {% for tag in site.categories %}
-        <a class="category-title"><h3 id="{{ tag[0] | slugify }}" style="color:#24423d;"><b>{{ tag[0] }}</b></h3></a>
+        <a class="category-title">
+		<h3 id="{{ tag[0] | slugify }}"><b>{{ tag[0] }}</b></h3>
+		</a>
         <ul class="tags-expo-posts">
           {% for post in tag[1] %}
             <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
