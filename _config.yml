@@ -44,7 +44,8 @@ nav:
     - { Java : '/blog/categories/#java' }
     - { Algorithm : '/blog/categories/#Algorithm' }
     - { Project : '/blog/categories/#Project' }
-    - { etc : '/blog/categories/#etc' }
+    - { Spring : '/blog/categories/#Spring' }
+    # - {  : '/blog/categories/#etc' }
   Blog:           
     - '/blog/'
     - { Categories: '/blog/categories/' }
