@@ -1,7 +1,7 @@
 ---
 layout: post
 title: String, StringBuffer, StringBuilder의 차이점
-category: JAVA
+category: Java
 ---
 
 ## String, StringBuffer, StringBuilder의 차이점
