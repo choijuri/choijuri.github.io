@@ -1,6 +1,6 @@
 ---
 layout: post
-title: String, StringBuffer, StringBuilder의 차이점
+title: Java) String, StringBuffer, StringBuilder의 차이점
 category: Java
 ---
 
